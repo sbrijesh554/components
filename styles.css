@@ -1,0 +1,8 @@
+.menu-styles{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid black;
+    background: grey;
+    text-align: center;
+    cursor: pointer;
+}

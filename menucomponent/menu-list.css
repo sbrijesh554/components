@@ -1,0 +1,87 @@
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+
+ .menu-container{
+  background-color: #000;
+  width: fit-content;
+ }
+ .navbar-fixed-top {
+    border: 0;
+  }
+.has-child{padding-left: 0; color: #ddd; list-style: none;}
+.hide-child-option{    position: absolute;
+    left: 103px;
+    width: fit-content;
+    padding: 10px;
+    background-color: #000;
+    top: 0;}
+.hide-child-option a{text-decoration  :none; color : #96989a;}
+ /* Hide for mobile, show later */
+  .sidebar {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    .sidebar {
+      position: fixed;
+      top: 51px;
+      bottom: 0;
+      left: 0;
+      z-index: 1000;
+      display: block;
+      padding:0 15px 15px;
+      /*overflow-x: hidden;
+      overflow-y: auto;  Scrollable contents if viewport is shorter than content. */
+      background-color: #1a1f2a;
+    }
+  }
+  
+  /* Sidebar navigation */
+  .nav {
+    position: relative;
+  }
+  .nav > li > a {
+    padding-left: 20px;
+    color: #96989a;
+  }
+  /* .nav > li > a:hover,
+  .nav > .active > a,
+  .nav > .active > a:hover,
+  .nav > .active > a:focus {
+    color: #ddd;
+    /* background:url(../../../../../../images/d-nav-bg.jpg) repeat-y 0 0; 
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+  } */
+  .nav-sidebar .child{position: absolute; top:0; left:90%;}
+  /*
+   * Main content
+   */
+  
+  /* .main {padding: 20px;} */
+  @media (min-width: 768px) {
+    /* .main {padding-right: 40px; padding-left: 40px;} */
+  }
+  .main .page-header {margin-top: 0;}
+  /*
+   * Placeholder dashboard ideas
+   */ 
+  .placeholders {margin-bottom: 30px; text-align: center;}
+  .placeholders h4 {margin-bottom: 0;}
+  .placeholder {margin-bottom:20px;}
+  .placeholder img {display: inline-block; border-radius: 50%;}
+    
+  .hide-child-option{
+    display: none;
+  }
+
+  .hide-child-option{
+    display: none;
+}
+.sidebar{position: fixed; top: 0; left: 0; bottom: 0; background: #1a1e29;}
+.sidebar-sticky{margin: 0 -15px;}
+
+  
